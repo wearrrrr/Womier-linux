@@ -6514,11 +6514,11 @@ webpackJsonp([0], {
                 return e()
             }
             ;
-            // function ga(e) {
-            //     va(function() {
-            //         va(e)
-            //     })
-            // }
+            function ga(e) {
+                va(function() {
+                    va(e)
+                })
+            }
             function ya(e, t) {
                 var n = e._transitionClasses || (e._transitionClasses = []);
                 n.indexOf(t) < 0 && (n.push(t),
@@ -6612,16 +6612,15 @@ webpackJsonp([0], {
                         P && P(n),
                         F && (ya(n, D),
                         ya(n, T),
-                        // ga(function() {
-                        //     ba(n, D),
-                        //     R.cancelled || (ya(n, M),
-                        //     L || ($a(A) ? setTimeout(R, A) : _a(n, s, R)))
-                        // }
-                        
+                        ga(function() {
+                            ba(n, D),
+                            R.cancelled || (ya(n, M),
+                            L || ($a(A) ? setTimeout(R, A) : _a(n, s, R)))
+                        })),
                         e.data.show && (t && t(),
                         j && j(n, R)),
                         F || L || R()
-                    )}
+                    }
                 }
             }
             function Oa(e, t) {

@@ -28456,7 +28456,20 @@ webpackJsonp([1], {
                     sensitivity: 16,
                     maxSensitivity: 330,
                     list: n.getX82()
-                }]
+                },
+                {
+                    productId: 32869,
+                    name: "KEYBOARD M68HE Keyboard",
+                    isAxial: !1,
+                    trip: 33,
+                    currentTrip: 13,
+                    minSensitivity: 8,
+                    SensitivityStep: 8,
+                    sensitivity: 16,
+                    maxSensitivity: 330,
+                    list: n.getX82()
+                }
+                ]
             }, {
                 name: "aula",
                 list: [{
@@ -39011,6 +39024,7 @@ webpackJsonp([1], {
                       , i = JSON.parse(localStorage.getItem("historyConnect")) ? JSON.parse(localStorage.getItem("historyConnect")).productId : "";
                     switch (this.currentDevice) {
                     case "Gaming Keyboard":
+                    case "KEYBOARD M68HE Keyboard":
                     case "M68HE Keyboard":
                     case "GK68":
                         e = t(34816 == i ? "9QWu" : "W17p");
