@@ -6512,8 +6512,7 @@ webpackJsonp([0], {
             ma = "webkitAnimationEnd"));
             var va = J ? window.requestAnimationFrame ? window.requestAnimationFrame.bind(window) : setTimeout : function(e) {
                 return e()
-            }
-            ;
+            };
             function ga(e) {
                 va(function() {
                     va(e)
@@ -6616,11 +6615,12 @@ webpackJsonp([0], {
                             ba(n, D),
                             R.cancelled || (ya(n, M),
                             L || ($a(A) ? setTimeout(R, A) : _a(n, s, R)))
-                        })),
+                        }),
+                        
                         e.data.show && (t && t(),
                         j && j(n, R)),
                         F || L || R()
-                    }
+                    )}
                 }
             }
             function Oa(e, t) {
